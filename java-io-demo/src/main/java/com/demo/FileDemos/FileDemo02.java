@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.FileDemos;
 
 import java.io.File;
 import java.time.Instant;
