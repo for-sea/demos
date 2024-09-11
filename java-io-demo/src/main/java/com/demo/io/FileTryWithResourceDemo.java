@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.*;
 
@@ -8,9 +8,9 @@ import java.io.*;
 public class FileTryWithResourceDemo {
     public static void main(String[] args) {
         try (// 文件字节输入流
-             InputStream inputStream = new FileInputStream("java-io-demo/src/main/java/com/demo/pic.jpg");
+             InputStream inputStream = new FileInputStream("java-io-demo/src/main/resources/pic.jpg");
              // 文件字节输出流
-             OutputStream outputStream = new FileOutputStream("java-io-demo/src/main/java/com/demo/pic-copy.jpg")
+             OutputStream outputStream = new FileOutputStream("java-io-demo/src/main/resources/pic-copy.jpg")
         ) {
             // 缓冲字节数组 1kb
             byte[] buffer = new byte[1024];

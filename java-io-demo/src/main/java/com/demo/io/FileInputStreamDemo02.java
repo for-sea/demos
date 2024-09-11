@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.io.InputStream;
 public class FileInputStreamDemo02 {
     public static void main(String[] args) throws IOException {
         // 1. 创建文件字节输入流管道
-        InputStream inputStream = new FileInputStream("java-io-demo/src/main/java/com/demo/abc.txt");
+        InputStream inputStream = new FileInputStream("java-io-demo/src/main/resources/abc.txt");
         // 2. 创建缓存
         byte[] buffer = new byte[3];
         /*// 3. 每次读取多个字节，存入缓存

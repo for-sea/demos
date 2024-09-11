@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
@@ -8,7 +8,7 @@ import java.io.Reader;
  */
 public class FileReaderDemo01 {
     public static void main(String[] args) {
-        try (Reader reader = new FileReader("java-io-demo/src/main/java/com/demo/abc.txt")){
+        try (Reader reader = new FileReader("java-io-demo/src/main/resources/abc.txt")){
             // 1. 读取单个字符
             /*int c;
             // read方法返回单个字符的字节码

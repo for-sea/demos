@@ -1,4 +1,4 @@
-package com.demo.FileDemos;
+package com.demo.file;
 
 import java.io.File;
 import java.time.Instant;
@@ -11,7 +11,7 @@ import java.time.ZoneOffset;
 public class FileDemo02 {
     public static void main(String[] args) {
         // 1. 创建文件
-        File file = new File("java-io-demo/src/main/java/com/demo/abc.txt");
+        File file = new File("java-io-demo/src/main/resources/abc.txt");
         // 2. 文件是否存在
         System.out.println(file.exists());
         // 3. 对象是否为文件

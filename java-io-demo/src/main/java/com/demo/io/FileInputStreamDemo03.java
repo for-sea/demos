@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import java.io.InputStream;
 public class FileInputStreamDemo03 {
     public static void main(String[] args) throws IOException {
         // 1. 创建文件字节输入流管道
-        File file = new File("java-io-demo/src/main/java/com/demo/abc.txt");
+        File file = new File("java-io-demo/src/main/resources/abc.txt");
         InputStream inputStream = new FileInputStream(file);
         // 2. 创建大小与文件字节长度一样的缓冲字节数组
         long length = file.length();

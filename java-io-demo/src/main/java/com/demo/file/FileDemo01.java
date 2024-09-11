@@ -1,4 +1,4 @@
-package com.demo.FileDemos;
+package com.demo.file;
 
 import java.io.File;
 
@@ -14,7 +14,7 @@ public class FileDemo01 {
 
         // 2. 绝对路径与相对路径
         // File file = new File("D:\\Code\\privatespace\\demos\\java-io-demo\\src\\main\\java\\com\\demo\\abc.txt");
-        File file = new File("java-io-demo/src/main/java/com/demo/abc.txt");
+        File file = new File("java-io-demo/src/main/resources/abc.txt");
         System.out.println(file.getPath());
         System.out.println(file.length());
     }

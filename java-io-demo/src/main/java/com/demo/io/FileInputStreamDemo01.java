@@ -1,7 +1,6 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -11,7 +10,7 @@ import java.io.InputStream;
 public class FileInputStreamDemo01 {
     public static void main(String[] args) throws IOException {
         // 1. 创建文件字节输入流管道，与源文件接通
-        InputStream inputStream = new FileInputStream("java-io-demo/src/main/java/com/demo/abc.txt");
+        InputStream inputStream = new FileInputStream("java-io-demo/src/main/resources/abc.txt");
         // 2. 开始读取文件字节数据
         /*int byte1 = inputStream.read();
         System.out.println((char) byte1);

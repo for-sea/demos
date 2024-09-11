@@ -1,4 +1,4 @@
-package com.demo.FileDemos;
+package com.demo.file;
 
 import java.io.File;
 

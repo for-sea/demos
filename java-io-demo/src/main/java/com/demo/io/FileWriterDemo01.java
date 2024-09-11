@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.io.Writer;
 public class FileWriterDemo01 {
     public static void main(String[] args) {
         // 创建文件字符输出流
-        // Writer writer = new FileWriter("java-io-demo/src/main/java/com/demo/abc-copt.txt") // 覆盖型写入
-        try (Writer writer = new FileWriter("java-io-demo/src/main/java/com/demo/abc-copt.txt", true)) {
+        // Writer writer = new FileWriter("java-io-demo/src/main/resources/abc-copt.txt") // 覆盖型写入
+        try (Writer writer = new FileWriter("java-io-demo/src/main/resources/abc-copt.txt", true)) {
             // 1. 写一个字符
             writer.write(97);
             writer.write('b');

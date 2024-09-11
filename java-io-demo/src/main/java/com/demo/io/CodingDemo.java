@@ -1,4 +1,4 @@
-package com.demo.IODemos;
+package com.demo.io;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
