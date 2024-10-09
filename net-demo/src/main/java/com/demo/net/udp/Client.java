@@ -5,7 +5,6 @@ import org.junit.Test;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.SocketException;
 
 /**
  * 客户端
@@ -21,7 +20,7 @@ public class Client {
         DatagramPacket packet = new DatagramPacket(bytes, bytes.length, InetAddress.getLocalHost(), 6666);
         // 3. 发送
         socket.send(packet);
-        System.out.println("客户端发送完毕！");
+        System.out.println("--- 客户端发送完毕 ---");
         // 4. 关闭客户端
         socket.close();
     }
