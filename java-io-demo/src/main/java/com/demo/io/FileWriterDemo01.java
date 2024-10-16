@@ -34,6 +34,5 @@ public class FileWriterDemo01 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class FileDemo04 {
     public static void main(String[] args) {
-        File file = new File("D:\\Document");
+        File file = new File("D:\\Blog");
         // 1. 获取文件夹下的一级文件名称
         String[] list = file.list();
         for (String fileName : list) {

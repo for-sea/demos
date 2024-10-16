@@ -22,6 +22,5 @@ public class BufferedDemo01 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

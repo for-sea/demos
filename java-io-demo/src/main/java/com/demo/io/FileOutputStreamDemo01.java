@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- *
+ * 文件字节输出流
  */
 public class FileOutputStreamDemo01 {
     public static void main(String[] args) throws IOException {

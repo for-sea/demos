@@ -19,7 +19,7 @@ public class FileInputStreamDemo02 {
         System.out.println("当前读取的字节数量：" + length);
         System.out.println(str);
 
-        // 4. 之后读取的字节会覆盖缓存中原来的字节，但是会出现后面的长度不足以覆盖缓存的字节的情况
+        // 4. 之后读取的字节会覆盖缓存中原来的字节，但是会出现之后读取字节的长度不足以覆盖之前缓存的字节长度的情况
         int length2 = inputStream.read(buffer);
         // 5. 读取多少个字节就解码多少个字节
         String str2 = new String(buffer, 0, length2);

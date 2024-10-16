@@ -25,5 +25,6 @@ public class FastjsonDemo02 {
         Person data = result.getData();
         System.out.println("result: " + result);
         System.out.println("data: " + data);
+
     }
 }

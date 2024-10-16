@@ -21,7 +21,7 @@ public class FileInputStreamDemo01 {
         // 3. 循环读取文件字节数据
         int res;
         while ((res = inputStream.read()) != -1) {
-            System.out.print((char)res);
+            System.out.println((char)res);
         }
 
         /*

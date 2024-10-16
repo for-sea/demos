@@ -7,7 +7,10 @@ import java.io.File;
  */
 public class FileDemo05 {
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
         searchFile(new File("D:/"), "demo.txt");
+        long endTime = System.currentTimeMillis();
+        System.out.println("耗时" + (double)(endTime - startTime) / 1000 + "s");
     }
 
     /**
