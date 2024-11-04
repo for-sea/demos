@@ -11,6 +11,7 @@
         <module>json-demo</module>
         <module>poi-demo</module>
         <module>net-demo</module>
+        <module>thread-demo</module>
     </modules>
 
     <properties>
