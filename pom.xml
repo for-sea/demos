@@ -12,6 +12,7 @@
         <module>poi-demo</module>
         <module>net-demo</module>
         <module>thread-demo</module>
+        <module>java-oop</module>
     </modules>
 
     <properties>

@@ -10,7 +10,9 @@
         <module name="net-demo" />
         <module name="java-io-demo" />
         <module name="poi-demo" />
+        <module name="java-oop" />
         <module name="json-demo" />
+        <module name="thread-demo" />
       </profile>
     </annotationProcessing>
   </component>
