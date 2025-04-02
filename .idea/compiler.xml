@@ -7,13 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common-api" />
         <module name="net-demo" />
         <module name="java-oop" />
         <module name="json-demo" />
-        <module name="thread-demo" />
+        <module name="countdown" />
         <module name="java-io-demo" />
         <module name="poi-demo" />
+        <module name="common-api" />
+        <module name="log-demo" />
+        <module name="restful-test" />
+        <module name="thread-demo" />
+        <module name="regex-demo" />
+        <module name="junit-demo" />
+        <module name="collection-demo" />
       </profile>
     </annotationProcessing>
   </component>

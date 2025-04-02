@@ -1,0 +1,8 @@
+server:
+  #https使用端口
+  port: 18791
+  servlet:
+    context-path: /demo
+#http使用端口
+http:
+  port: 8791

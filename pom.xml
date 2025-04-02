@@ -14,6 +14,12 @@
         <module>thread-demo</module>
         <module>java-oop</module>
         <module>common-api</module>
+        <module>countdown</module>
+        <module>restful-test</module>
+        <module>regex-demo</module>
+        <module>collection-demo</module>
+        <module>log-demo</module>
+        <module>junit-demo/junit-demo</module>
     </modules>
 
     <properties>
